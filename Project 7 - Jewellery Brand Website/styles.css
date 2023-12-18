@@ -1,0 +1,561 @@
+/***************** HTML TAG SELECTORS *****************/
+
+body {
+  background-color: #dacbb4;
+  max-width: fit-content;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: black;
+}
+
+h1 {
+  font-family: "Oranienbaum", serif;
+  font-size: 110px;
+  text-align: right;
+}
+
+h2 {
+  font-size: 51px;
+  font-family: "Cormorant Garamond", serif;
+  margin-bottom: 0;
+}
+
+h3,
+h4 {
+  color: white;
+  font-family: "Oranienbaum", serif;
+  margin: auto;
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 15px;
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 40px;
+  padding: 2% 5% 5% 5%;
+}
+
+/***************** CLASS AND ID SELECTORS *****************/
+
+/* NAVBAR SECTION */
+
+.navbar {
+  background-color: #dacbb4;
+}
+
+.nav-item {
+  position: relative;
+  font-size: 20px;
+}
+
+/* LANDING PAGE SECTION */
+
+.landing-container {
+  text-align: center;
+  height: 650px;
+  background-color: #dacbb4;
+}
+
+.landing-page-image {
+  position: relative;
+  width: 81%;
+  right: 275px;
+  opacity: 0.4;
+}
+
+.landing-page-text {
+  position: relative;
+  bottom: 500px;
+  left: 300px;
+  width: max-content;
+  margin: auto;
+}
+
+.landing-page-logo {
+  width: 20%;
+}
+
+/* PRODUCT SECTIONS */
+
+#products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4% 0 3% 0;
+  width: 100%;
+}
+
+.product-container {
+  width: 100%;
+  margin: auto;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+  filter: brightness(95%);
+}
+
+.card-img-top:hover {
+  opacity: 0.3;
+}
+
+.product-card {
+  width: 100%;
+  margin: 5%;
+  position: relative;
+  right: 12px;
+}
+
+.btn {
+  background-color: #6f4e37;
+  border-color: #6f4e37;
+}
+
+.btn:hover {
+  background-color: black;
+  border-color: black;
+}
+
+.row {
+  padding-left: 10px;
+}
+
+/* FOOTER SECTION */
+
+.footer-logo {
+  position: relative;
+  left: 50px;
+  bottom: 30px;
+  width: 90%;
+}
+
+.footer-form-label {
+  font-size: 25px;
+  font-family: "Oranienbaum", serif;
+  color: white;
+  position: relative;
+  left: 55px;
+  bottom: 10px;
+}
+
+.footer-btn {
+  margin: 30px 0;
+  position: relative;
+  left: 255px;
+}
+
+.footer-form-label {
+  position: relative;
+  left: -2px;
+  top: 1px;
+}
+
+.footer-icon {
+  color: white;
+  margin: 0 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-footer {
+  padding: 0 0 3% 0;
+}
+
+.socials-footer-text {
+  padding: 1% 0 2% 0;
+}
+
+.footer-row {
+  width: 90%;
+  margin-left: 2%;
+}
+
+/***************** MEDIA QUERIES *****************/
+
+@media (max-width: 1350px) {
+  .landing-page-text {
+    left: 315px;
+  }
+
+  .landing-page-image {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1250px) {
+  .landing-page-text {
+    left: 1px;
+    bottom: 500px;
+  }
+
+  .landing-page-image {
+    width: 100%;
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  .landing-page-image {
+    left: 1px;
+  }
+
+  .product-container {
+    padding: 2%;
+  }
+
+  .footer-btn {
+    left: 210px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .product-container {
+    position: relative;
+    bottom: 30px;
+  }
+
+  .footer-btn {
+    left: 190px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .product-container {
+    position: relative;
+    bottom: 50px;
+  }
+
+  #footer {
+    height: 300px;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .footer-btn {
+    left: 180px;
+  }
+
+  .socials-footer {
+    position: relative;
+    top: 25px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .product-container {
+    position: relative;
+    bottom: 70px;
+  }
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 100px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  .landing-page-text {
+    bottom: 500px;
+  }
+
+  .product-container {
+    position: relative;
+    bottom: 100px;
+  }
+
+  .footer-btn {
+    left: 150px;
+  }
+
+  .footer-logo {
+    bottom: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  #footer {
+    position: relative;
+    bottom: 100px;
+  }
+
+  .footer-form {
+    left: 30px;
+  }
+
+  .socials-footer {
+    position: relative;
+    top: 20px;
+  }
+
+  .footer-btn {
+    left: 120px;
+  }
+}
+
+@media (max-width: 925px) {
+  .landing-page-text {
+    top: -400px;
+  }
+
+  .product-container {
+    position: relative;
+    bottom: 150px;
+  }
+
+  #footer {
+    position: relative;
+    top: -150px;
+  }
+
+  .socials-footer {
+    position: relative;
+    top: -5px;
+  }
+
+  .footer-btn {
+    left: 110px;
+  }
+}
+
+@media (max-width: 850px) {
+  .product-container {
+    position: relative;
+    bottom: 180px;
+  }
+
+  .footer-logo {
+    bottom: 1px;
+  }
+}
+
+@media (max-width: 825px) {
+  .product-container {
+    position: relative;
+    bottom: 200px;
+  }
+
+  .footer-form {
+    left: 55px;
+  }
+
+  #footer {
+    position: relative;
+    top: -190px;
+  }
+
+  .footer-btn {
+    left: 65px;
+  }
+}
+
+@media (max-width: 725px) {
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 33px;
+  }
+
+  .landing-page-text {
+    top: -320px;
+  }
+
+  .product-container {
+    position: relative;
+    bottom: 240px;
+  }
+
+  .footer-logo {
+    bottom: -10px;
+  }
+
+  .footer-btn {
+    left: 35px;
+  }
+
+  .footer-form-label {
+    left: -40px;
+  }
+
+  .socials-footer {
+    bottom: 10px;
+    height: 110px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  .landing-page-logo {
+    width: 15%;
+  }
+
+  .landing-page-text {
+    top: -320px;
+  }
+
+  .landing-page-text {
+    top: -260px;
+  }
+
+  .product-container {
+    bottom: 300px;
+  }
+
+  #footer {
+    top: -280px;
+  }
+
+  .socials-footer {
+    top: 10px;
+    height: 40px;
+  }
+
+  .footer-btn {
+    left: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .product-card {
+    width: 18rem;
+    position: relative;
+    left: 84px;
+  }
+
+  .footer-logo {
+    width: 30%;
+    left: 170px;
+    margin-bottom: 20px;
+  }
+
+  .footer-form {
+    position: relative;
+    left: -5px;
+  }
+
+  .socials-footer {
+    top: 1px;
+    height: 150px;
+  }
+
+  .footer-btn {
+    left: 220px;
+  }
+
+  .footer-form-label {
+    left: -10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .product-container {
+    bottom: 360px;
+  }
+
+  #footer {
+    top: -340px;
+  }
+
+  .footer-btn {
+    left: 170px;
+  }
+
+  .socials-footer {
+    top: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .landing-page-text {
+    top: -200px;
+  }
+
+  #products {
+    position: relative;
+    bottom: 50px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .product-card {
+    width: 13rem;
+    left: 60px;
+  }
+
+  #footer {
+    height: 200px;
+    top: -400px;
+  }
+
+  .footer-logo {
+    width: 100px;
+    left: 135px;
+  }
+
+  .footer-btn {
+    left: 140px;
+  }
+
+  .socials-footer-text {
+    top: -10px;
+  }
+
+  h4 {
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+  }
+}
+
+@media (max-width: 390px) {
+  .footer-btn {
+    left: 120px;
+  }
+
+  .footer-logo {
+    width: 80px;
+    left: 120px;
+  }
+}
