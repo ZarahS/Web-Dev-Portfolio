@@ -1,0 +1,628 @@
+/*HTML Selectors*/
+body {
+  text-align: center;
+  padding: 2%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-family: "Bitter", serif;
+  font-size: 20px;
+}
+
+/* Section Background Colours */
+.white-section {
+  background-color: white;
+}
+
+.coloured-section {
+  background-color: #a65056;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 0.5rem;
+  z-index: 2;
+  text-align: left;
+}
+
+.nav-link {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 20px;
+  left: 50px;
+}
+
+.nav-link-group {
+  position: relative;
+  right: 220px;
+  z-index: 1;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.logo {
+  width: 50%;
+}
+
+/* Title Section */
+#title {
+  padding: 60px;
+  z-index: 1;
+}
+
+.inner-title-container {
+  height: 568px;
+}
+
+.title-row {
+  display: inline-flex;
+  position: relative;
+  right: 30px;
+  text-align: left;
+}
+
+.title-download-button {
+  font-family: "Playfair Display", serif;
+  margin: 7% 1% 3% 1%;
+  height: 50px;
+  position: relative;
+  left: 215px;
+  z-index: 2;
+}
+
+/* Shop Section */
+#shop {
+  background-color: #9e7777;
+  padding: 70px 60px;
+}
+
+.shop-container {
+  height: 555px;
+  display: inline-flex;
+  width: 100%;
+}
+
+.shop-row {
+  display: inline-flex;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  top: 5px;
+}
+
+/* About Us Section */
+#about-us {
+  height: 610px;
+  display: grid;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  color: white;
+  position: relative;
+  top: 225px;
+  right: 80px;
+  z-index: 2;
+}
+
+.circle {
+  background: #d8afaf;
+  display: inline-flex;
+  height: 375px;
+  width: 375px;
+  border-radius: 50%;
+  margin: 1%;
+  position: relative;
+  top: 100px;
+}
+
+.heart-icon,
+.magic-icon {
+  position: relative;
+  top: 150px;
+  left: 60px;
+  height: 10px;
+  color: #a65056;
+}
+
+.coins-icon {
+  position: relative;
+  top: 150px;
+  left: 20px;
+  height: 10px;
+  color: #a65056;
+}
+
+.heart-icon:hover,
+.magic-icon:hover,
+.coins-icon:hover {
+  color: #9e7777;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  height: 600px;
+  padding: 1% 0;
+  padding-top: 100px;
+}
+
+.carousel-item {
+  width: 75%;
+  position: relative;
+  left: 150px;
+  top: 00px;
+}
+
+.testimonial-text {
+  font-style: italic;
+  font-size: 40px;
+  font-family: "Bitter", serif;
+}
+
+.testimonial-name {
+  color: white;
+}
+
+.carousel-inner {
+  height: 500px;
+  margin: auto;
+}
+
+.carousel-control-prev {
+  margin: -20px;
+}
+
+.carousel-control-next {
+  margin: -20px;
+}
+
+/* Press Section */
+
+#press {
+  position: relative;
+  bottom: 75px;
+  padding-bottom: 30px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding-bottom: 50px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-gap {
+  position: relative;
+  top: 46px;
+}
+
+.card-header {
+  background-color: #a65056;
+  font-family: "Bitter", serif;
+  color: white;
+  font-style: Bold;
+}
+
+.card-body {
+  background-color: #d8afaf;
+  font-family: "Bitter", serif;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 2%;
+}
+
+/* CTA Section */
+
+#cta {
+  padding-bottom: 50px;
+}
+
+.cta-download-button {
+  font-family: "Playfair Display", serif;
+}
+
+/* Footer Section */
+
+#footer {
+  padding-top: 20px;
+}
+
+.social-icon {
+  margin: 10px 20px;
+  color: #9e7777;
+}
+
+.copyright-tag {
+  color: #9e7777;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 70px;
+  line-height: 1.2;
+  width: 110%;
+  position: relative;
+  left: 85px;
+  top: 20px;
+  z-index: 2;
+}
+
+.shop-heading {
+  z-index: 1;
+  position: relative;
+  font-size: 35.2px;
+  top: 225px;
+}
+
+.about-heading {
+  font-size: 32px;
+  position: relative;
+  left: 130px;
+  top: 50px;
+}
+
+.pricing-heading {
+  font-size: 32px;
+  color: black;
+  margin: 0 4%;
+}
+
+.cost-heading {
+  font-size: 48px;
+  color: black;
+}
+
+.cta-heading {
+  font-size: 48px;
+  padding-top: 50px;
+  margin: 2% 2%;
+}
+
+/* Images */
+
+.logo-image {
+  width: 50%;
+}
+
+.title-image {
+  width: 100%;
+  height: 93.5%;
+  display: grid;
+  position: relative;
+  bottom: 147.6px;
+  left: 40px;
+  z-index: 0;
+}
+
+.shop-hijab-image {
+  position: relative;
+  height: 475px;
+  width: 90%;
+  bottom: 15px;
+  opacity: 0.85;
+}
+
+.shop-clothing-image {
+  height: 475px;
+  width: 99%;
+  position: relative;
+  bottom: 15px;
+  opacity: 0.9;
+  right: 8px;
+}
+
+.shop-jewellery-image {
+  height: 475px;
+  width: 97%;
+  position: relative;
+  right: 10px;
+  bottom: 15px;
+}
+
+.shop-hijab-image:hover {
+  opacity: 0.5;
+}
+
+.shop-clothing-image:hover {
+  opacity: 0.5;
+}
+
+.shop-jewellery-image:hover {
+  opacity: 0.5;
+}
+
+.testimonial-image1 {
+  border-radius: 100%;
+  width: 30%;
+}
+
+.testimonial-image2 {
+  border-radius: 100%;
+  width: 25%;
+}
+.press-logo-image {
+  width: 20%;
+  margin: 20px 20px 20px;
+  position: relative;
+  color: white;
+}
+
+/* Media Queries
+
+Title Media Queries */
+
+@media (max-width: 1199px) {
+  .nav-link-group {
+    flex-direction: row;
+    position: relative;
+    right: -10px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 643px) {
+  .title-row {
+    flex-direction: column-reverse;
+  }
+
+  .title-image {
+    flex-direction: column-reverse;
+    margin: auto;
+    width: 80%;
+  }
+  .logo-image {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+  }
+
+  .inner-title-container {
+    height: 940px;
+    padding: 5%;
+    width: 100%;
+  }
+
+  #title {
+    height: max-content;
+    width: 100%;
+  }
+
+  .big-heading {
+    font-size: 50px;
+    margin: auto;
+    width: 90%;
+    position: relative;
+    left: 20px;
+    top: -150px;
+    padding-top: 20px;
+  }
+
+  .title-download-button {
+    display: block;
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 20px;
+    left: 15px;
+    bottom: 120px;
+  }
+}
+
+@media (max-width: 642px) {
+  .title-image {
+    position: relative;
+    bottom: 270px;
+  }
+
+  .title-row {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+  }
+
+  .big-heading {
+    font-size: 40px;
+    flex-direction: column;
+    column-gap: 0;
+    z-index: 2;
+    position: relative;
+    left: 35px;
+    top: -200px;
+  }
+
+  .inner-title-container {
+    height: 950px;
+    padding: 5%;
+    width: 100%;
+  }
+
+  #title {
+    height: 100%;
+    width: 100%;
+  }
+
+  .title-download-button {
+    display: block;
+    margin: auto;
+    left: 40px;
+    top: -190px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+}
+
+/* Shop Media Queries */
+@media (max-width: 1150px) {
+  .shop-container {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+  }
+
+  #shop {
+    height: fit-content;
+    width: 100%;
+  }
+
+  .shop-row {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .shop-hijab-image {
+    width: 300px;
+    display: flex;
+  }
+  .shop-clothing-image {
+    width: 300px;
+    display: flex;
+  }
+
+  .shop-jewellery-image {
+    width: 300px;
+    display: flex;
+    margin-bottom: 20px;
+  }
+}
+
+/* About Us Media Queries */
+
+@media (max-width: 1230px) {
+  #about-us {
+    margin-top: 180px;
+    margin-bottom: 430px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-us-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 642px) {
+  .about-heading {
+    font-size: 2rem;
+  }
+}
+
+/* Testimonial Media Queries */
+
+@media (max-width: 1007px) and (min-width: 643px) {
+  .carousel-inner {
+    width: 100%;
+    margin: auto;
+  }
+
+  #testimonials {
+    height: 600px;
+  }
+}
+
+@media (max-width: 642px) {
+  #testimonials {
+    height: 500px;
+  }
+
+  .testimonial-text {
+    font-size: 30px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .carousel-inner {
+    position: relative;
+    width: fit-content;
+    right: 70px;
+    margin-top: -20px;
+  }
+
+  .testimonial-image1 {
+    height: 140px;
+    width: 140px;
+  }
+
+  .testimonial-image2 {
+    height: 140px;
+    width: 140px;
+  }
+}
+
+/* Press Media Queries */
+
+@media (max-width: 1007px) {
+  .press-logo-image {
+    width: 20%;
+  }
+}
+
+@media (max-width: 642px) {
+  #press {
+    margin-top: 35px;
+  }
+
+  .press-logo-image {
+    width: 25%;
+  }
+}
+
+/* Pricing Media Queries */
+
+@media (max-width: 1048px) and (min-width: 992px) {
+  .card-gap {
+    display: block;
+    position: relative;
+    top: 16px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+  .card-gap {
+    display: block;
+    position: relative;
+    top: -2px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-gap {
+    display: block;
+    position: relative;
+    top: -2px;
+  }
+}
+
+/* CTA Media Queries */
+
+@media (max-width: 1007px) and (min-width: 643px) {
+  .cta-heading {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 642px) {
+  .cta-heading {
+    font-size: 40px;
+  }
+}
