@@ -22,3 +22,6 @@ Welcome to my web development portfolio! This collection highlights my journey a
 
 ### Project 6: [Weather API](https://zarahs.github.io/Web-Dev-Portfolio/Project%206%20-%20Weather%20API%20Website)
 - Utilized a weather API to build a dynamic web application that provides real-time weather information. This project showcases my understanding of API integration and back-end development.
+
+### Project 7: [Jewellery Brand Website](https://zarahs.github.io/Web-Dev-Portfolio/Project%207%20-%20Jewellery%20Brand%20Website)
+- Designed and implemented a visually stunning website for a fictional jewellery brand. Explored e-commerce features, such as product listings and a shopping cart. This project highlights my skills in creating aesthetically pleasing and functional websites for businesses.
