@@ -5,7 +5,7 @@ Welcome to my web development portfolio! This collection highlights my journey a
 
 ## Projects
 
-### Project 1: [My First CSS Site](https://zarahs.github.io/Web-Dev-Portfolio/Project%201%20-%20First%20CSS%20Site/)
+### Project 1: [My First CSS Site](https://zarahs.github.io/Web-Dev-Portfolio/Project%201%20-%20First%20CSS%20Website/)
 - An introductory project where I experimented with CSS to create a basic website. It marks the beginning of my web development journey.
 
 ### Project 2: [Fashion Brand Site](https://zarahs.github.io/Web-Dev-Portfolio/Project%202%20-%20Fashion%20Brand%20Website/)
